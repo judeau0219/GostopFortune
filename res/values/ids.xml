@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 메인 -->
+    <item type="id" name="btn_banner"/>
+    <item type="id" name="game_stage"/>
+    <item type="id" name="btn_menu"/>
+    <item type="id" name="frag_popup"/>
+    
+    <!-- 팝업 -->
+    <item type="id" name="btn_close"/>
+    <item type="id" name="btn_restart"/>
+    <item type="id" name="btn_game_guide"/>
+    <item type="id" name="btn_gostop_guide"/>
+    <item type="id" name="btn_gostop"/>
+    <item type="id" name="btn_close_tutorial"/>
+    
+    <item type="id" name="img_title"/>
+    <item type="id" name="img_title_line"/>
+    
+    <item type="id" name="txt_title"/>
+    <item type="id" name="txt_message"/>
+    <item type="id" name="txt_bgm"/>
+    <item type="id" name="txt_effect"/>
+    
+    <item type="id" name="list_result"/>
+    
+    <item type="id" name="check_bgm"/>
+    <item type="id" name="check_effect"/>
+    
+    <item type="id" name="img_cover"/>
+    
+    <item type="id" name="txt_explain"/>
+    <item type="id" name="pager"/>
+    
+    <!-- 게임화면 -->
+    <item type="id" name="btn_start"/>
+    
+    <item type="id" name="lin_floor"/>
+    <item type="id" name="fra_card"/>
+    <item type="id" name="effect_view"/>
+    <item type="id" name="fra_drag"/>
+    
+    <item type="id" name="img_area_line"/>
+    <item type="id" name="img_shuffle"/>
+    <item type="id" name="img_hand"/>
+    <item type="id" name="img_finger"/>
+    <item type="id" name="img_arrow"/>
+    
+    <!-- CardView -->
+    <item type="id" name="img_back"/>
+    <item type="id" name="img_front"/>
+    <item type="id" name="img_selected"/>
+    <item type="id" name="img_on"/>
+    
+    <!-- EffectView -->
+    <item type="id" name="img_effect"/>
+    
+    <!-- ResultList -->
+    <item type="id" name="img_result"/>
+    <item type="id" name="txt_result1"/>
+    <item type="id" name="txt_result2"/>
+    <item type="id" name="img_list_line"/>
+    <item type="id" name="dash_path"/>
+    
+</resources>

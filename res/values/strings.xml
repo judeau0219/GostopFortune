@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">피망 화투점</string>
+    <string name="action_settings">Settings</string>
+    <string name="alert_noresult_title">결과가 없습니다.</string>
+    <string name="alert_noresult_contents">4장이 모인 패가 없습니다.\n다시 진행해 주세요!</string>
+    <string name="alert_nomatch_title">아쉽게 맞는 패가\n없습니다!</string>
+    <string name="alert_nomatch_contents">더 이상 맞는 패가 없습니다.\n다시 진행해 주세요!</string>
+    <string name="alert_end">"'뒤로' 버튼 한번 더 누르시면 종료됩니다."</string>
+    <string name="pmang_gostop_package">com.neowiz.games.newmatgo</string>
+    <string name="drag_guide">화살표 방향으로 끌어 올려주세요!</string>
+    <string name="drag_guide_highlight">화살표 방향</string>
+</resources>

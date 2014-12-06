@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_tutorial">
+
+    <ImageView android:id="@id/btn_close_tutorial"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:layout_marginRight="14dip"
+		android:layout_marginTop="14dip"
+		android:onClick="onClick"
+		android:src="@drawable/btn_close_tutorial"/>
+    
+    <!-- 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg_phone"/>
+     -->
+     
+    <android.support.v4.view.ViewPager
+        android:id="@id/pager"
+        android:layout_width="324dip"
+        android:layout_height="502dip"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="52dip"
+        android:paddingLeft="21dip"
+        android:paddingRight="26dip"
+        android:background="@drawable/bg_phone"/>
+    
+    <TextView android:id="@id/txt_explain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffffffff"
+        android:textSize="@dimen/text_size_tutorial"/>
+    
+    <LinearLayout android:id="@+id/linear_dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/img_dot1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img_dot_on"/>
+        <ImageView android:id="@+id/img_dot2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:src="@drawable/img_dot_off"/>
+        <ImageView android:id="@+id/img_dot3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dip"
+            android:src="@drawable/img_dot_off"/>
+    </LinearLayout>
+    <!-- 
+    <ImageView android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:onClick="onClick"
+        android:src="@drawable/btn_next_tutorial"/>
+
+    <ImageView android:id="@+id/btn_prev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="onClick"
+        android:src="@drawable/btn_prev_tutorial"/>
+     -->
+</RelativeLayout>

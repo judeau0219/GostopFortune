@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string-array name="result_title">
+		<item>1월(송학) : 소식</item>
+		<item>2월(매조) : 님, 애인</item>
+		<item>3월(벚꽃) : 산보, 여행</item>
+		<item>4월(흑싸리) : 님과의 데이트 근심</item>
+		<item>5월(난초) : 국수, 식사</item>
+		<item>6월(목단) : 기쁨</item>
+		<item>7월(홍싸리) : 행운, 횡재</item>
+		<item>8월(공산) : 달밤에, 저녁</item>
+		<item>9월(국화) : 술, 술자리</item>
+		<item>10월(단풍) : 걱정, 불안</item>
+		<item>11월(오동) : 돈, 수입</item>
+		<item>12월(비) : 손님, 친구</item>
+	</string-array>
+	
+	<string-array name="result_explain">
+		<item>애인이 님을 본다.\n아닌 경우 소식을 듣는다.</item>
+		<item>애인 혹은 이성을 만날 일이\n생긴다.</item>
+		<item>가까운 곳으로 놀러 갈 일이\n생긴다.</item>
+		<item>친구나 가까운 사람과\n가벼운 다툼이 있다.</item>
+		<item>국수를 먹거나, 또는\n사람들을 만날 일이 생긴다.</item>
+		<item>기분 좋은 일이나,\n좋은 소식을 듣는다.</item>
+		<item>횡재, 재수 좋은 일이\n생긴다.</item>
+		<item>돈이 나가거나 들어온다.\n주로 나가는 돈.</item>
+		<item>술을 마시거나, 사람들을\n만날 일이 생긴다.</item>
+		<item>근심, 걱정거리가 생긴다.</item>
+		<item>돈이 나가거나 들어온다.\n주로 들어오는 돈</item>
+		<item>손님이 오거나, 비가\n오거나, 슬픈 일이 생긴다.</item>
+	</string-array>
+	
+	<integer-array name="result_group_01">
+	    <item>1</item>
+	    <item>2</item>
+	</integer-array>
+	<integer-array name="result_group_02">
+	    <item>2</item>
+	    <item>3</item>
+	</integer-array>
+	
+	<integer-array name="result_group_03">
+	    <item>1</item>
+	    <item>7</item>
+	</integer-array>
+	<integer-array name="result_group_04">
+	    <item>6</item>
+	    <item>7</item>
+	</integer-array>
+	
+	<integer-array name="result_group_05">
+	    <item>5</item>
+	    <item>9</item>
+	</integer-array>
+	<integer-array name="result_group_06">
+	    <item>8</item>
+	    <item>9</item>
+	</integer-array>
+	
+	<integer-array name="result_group_07">
+	    <item>4</item>
+	    <item>10</item>
+	</integer-array>
+	<integer-array name="result_group_08">
+	    <item>4</item>
+	    <item>12</item>
+	</integer-array>
+	
+</resources>
